@@ -41,4 +41,4 @@ app.get("/ping", (req, res) => {
 
 app.get('/*', express.static('public'))
 
-app.listen(process.env.PORT || 3000)
+app.listen(process.env.PORT || 8080)
